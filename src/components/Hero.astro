@@ -1,0 +1,112 @@
+---
+---
+<section class="hero">
+  <div class="container">
+    <div class="badge">🔥 Ofertas Exclusivas</div>
+    <h1>Produtos que <span class="highlight">realmente funcionam</span></h1>
+    <p>Selecionamos os melhores produtos do mercado com os melhores preços. Aproveite nossas ofertas e compre com segurança.</p>
+    <div class="stats">
+      <div class="stat">
+        <strong>+50mil</strong>
+        <span>Clientes satisfeitos</span>
+      </div>
+      <div class="divider"></div>
+      <div class="stat">
+        <strong>100%</strong>
+        <span>Garantia de entrega</span>
+      </div>
+      <div class="divider"></div>
+      <div class="stat">
+        <strong>4.9★</strong>
+        <span>Avaliação média</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .hero {
+    background: linear-gradient(135deg, #0f0f0f 0%, #1a0505 50%, #0f0f0f 100%);
+    padding: 4rem 0 3rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse at 50% 0%, rgba(225,29,72,0.15) 0%, transparent 70%);
+  }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    position: relative;
+    z-index: 1;
+  }
+  .badge {
+    display: inline-block;
+    background: rgba(225,29,72,0.15);
+    border: 1px solid rgba(225,29,72,0.4);
+    color: var(--primary);
+    padding: 0.35rem 1rem;
+    border-radius: 999px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 1.25rem;
+    letter-spacing: 0.5px;
+  }
+  h1 {
+    font-size: clamp(2rem, 5vw, 3.25rem);
+    font-weight: 900;
+    line-height: 1.15;
+    margin-bottom: 1rem;
+    letter-spacing: -1px;
+  }
+  .highlight {
+    background: linear-gradient(135deg, var(--primary), var(--accent));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  p {
+    font-size: 1.1rem;
+    color: var(--gray-400);
+    max-width: 540px;
+    margin: 0 auto 2.5rem;
+    line-height: 1.7;
+  }
+  .stats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  .stat {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+  .stat strong {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--white);
+  }
+  .stat span {
+    font-size: 0.8rem;
+    color: var(--gray-400);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .divider {
+    width: 1px;
+    height: 40px;
+    background: var(--gray-700);
+  }
+  @media (max-width: 500px) {
+    .divider { display: none; }
+    .stats { gap: 1.5rem; }
+  }
+</style>
