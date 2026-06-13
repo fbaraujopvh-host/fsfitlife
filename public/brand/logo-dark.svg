@@ -1,0 +1,22 @@
+<svg width="280" height="80" viewBox="0 0 280 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="280" height="80" rx="12" fill="#111111"/>
+  <defs>
+    <linearGradient id="ag" x1="8" y1="12" x2="52" y2="70" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ff4d6d"/>
+      <stop offset="55%" stop-color="#e11d48"/>
+      <stop offset="100%" stop-color="#9f1239"/>
+    </linearGradient>
+    <clipPath id="ac">
+      <path d="M30 22c-3.5 0-8-1.5-11-4-2.2 2.5-4 6-4 11 0 12 5.5 24 10 28 1.7 1.8 3.6 2.7 5 2.7s3.3-.9 5-2.7c4.5-4 10-16 10-28 0-5-1.8-8.5-4-11-3 2.5-7.5 4-11 4z"/>
+    </clipPath>
+  </defs>
+  <path d="M30 18c0 0 2.2-4.5 6.5-5.5 0 0-2 3.5-6.5 5.5z" fill="#4ade80" opacity="0.9"/>
+  <path d="M30 18c0 0 3-3 7-4 0 0-1 4-7 4z" fill="#22c55e"/>
+  <path d="M30 22c-3.5 0-8-1.5-11-4-2.2 2.5-4 6-4 11 0 12 5.5 24 10 28 1.7 1.8 3.6 2.7 5 2.7s3.3-.9 5-2.7c4.5-4 10-16 10-28 0-5-1.8-8.5-4-11-3 2.5-7.5 4-11 4z" fill="url(#ag)"/>
+  <g clip-path="url(#ac)">
+    <polyline points="15,42 19,42 22,34 25,50 28,28 30,40 32,34 34,42 38,22 42,54 46,42 50,42" fill="none" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="0.95"/>
+  </g>
+  <text x="72" y="38" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff" letter-spacing="-0.5">Eu Te</text>
+  <text x="72" y="66" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="800" fill="#e11d48" letter-spacing="-0.5">Indico</text>
+  <text x="74" y="76" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="9" font-weight="500" fill="#6b7280" letter-spacing="2.5">NUTRIÇÃO E SAÚDE</text>
+</svg>

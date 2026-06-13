@@ -1,0 +1,20 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" rx="40" fill="#111111"/>
+  <defs>
+    <linearGradient id="ag" x1="30" y1="40" x2="170" y2="185" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ff4d6d"/>
+      <stop offset="55%" stop-color="#e11d48"/>
+      <stop offset="100%" stop-color="#9f1239"/>
+    </linearGradient>
+    <clipPath id="ac">
+      <path d="M100 58c-16 0-35-7-47-18-9 11-17 26-17 48 0 52 24 103 43 121 7.5 8 16 12 21 12s13.5-4 21-12c19-18 43-69 43-121 0-22-8-37-17-48-12 11-31 18-47 18z"/>
+    </clipPath>
+  </defs>
+  <path d="M100 40c0 0 10-18 28-23 0 0-8 16-28 23z" fill="#4ade80" opacity="0.9"/>
+  <path d="M100 38c0 0 13-14 30-18 0 0-4 18-30 18z" fill="#22c55e"/>
+  <path d="M100 58c-16 0-35-7-47-18-9 11-17 26-17 48 0 52 24 103 43 121 7.5 8 16 12 21 12s13.5-4 21-12c19-18 43-69 43-121 0-22-8-37-17-48-12 11-31 18-47 18z" fill="url(#ag)"/>
+  <path d="M64 72c3-8 10-15 22-17-6 4-15 10-18 22-4-3-5-7-4-5z" fill="white" opacity="0.18"/>
+  <g clip-path="url(#ac)">
+    <polyline points="36,112 52,112 62,92 72,132 82,82 89,110 96,96 103,112 118,68 133,148 145,112 164,112" fill="none" stroke="white" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" opacity="0.95"/>
+  </g>
+</svg>

@@ -1,0 +1,57 @@
+<svg width="1080" height="1920" viewBox="0 0 1080 1920" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1080" height="1920" fill="#0d0d0d"/>
+  <!-- Circles -->
+  <circle cx="540" cy="960" r="480" fill="#e11d48" fill-opacity="0.05"/>
+  <circle cx="540" cy="960" r="340" fill="#e11d48" fill-opacity="0.05"/>
+  <circle cx="540" cy="960" r="200" fill="#e11d48" fill-opacity="0.05"/>
+  <!-- Rings outline -->
+  <circle cx="540" cy="960" r="480" fill="none" stroke="#e11d48" stroke-width="1" stroke-opacity="0.12"/>
+  <circle cx="540" cy="960" r="340" fill="none" stroke="#e11d48" stroke-width="1" stroke-opacity="0.18"/>
+
+  <!-- ECG top -->
+  <polyline points="0,160 200,160 276,80 352,240 420,40 475,190 520,120 565,160 660,0 755,320 830,160 1000,160 1080,160" fill="none" stroke="#e11d48" stroke-width="3" stroke-linecap="round" opacity="0.15"/>
+
+  <!-- LOGO ICON -->
+  <defs>
+    <linearGradient id="ags" x1="390" y1="560" x2="690" y2="960" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ff4d6d"/>
+      <stop offset="55%" stop-color="#e11d48"/>
+      <stop offset="100%" stop-color="#9f1239"/>
+    </linearGradient>
+    <clipPath id="acs">
+      <path d="M540 600c-55 0-118-24-160-62-30 36-55 86-55 158 0 175 80 310 143 368 25 27 54 41 72 41s47-14 72-41c63-58 143-193 143-368 0-72-25-122-55-158-42 38-105 62-160 62z"/>
+    </clipPath>
+  </defs>
+  <path d="M540 556c0 0 34-60 95-76 0 0-28 54-95 76z" fill="#4ade80" opacity="0.9"/>
+  <path d="M540 550c0 0 45-48 102-62 0 0-14 60-102 62z" fill="#22c55e"/>
+  <path d="M540 600c-55 0-118-24-160-62-30 36-55 86-55 158 0 175 80 310 143 368 25 27 54 41 72 41s47-14 72-41c63-58 143-193 143-368 0-72-25-122-55-158-42 38-105 62-160 62z" fill="url(#ags)"/>
+  <path d="M408 628c10-26 34-48 76-56-20 12-50 32-60 72-14-10-18-24-16-16z" fill="white" opacity="0.15"/>
+  <g clip-path="url(#acs)">
+    <polyline points="325,810 380,810 414,750 448,870 476,700 500,780 518,740 536,810 582,650 628,970 665,810 700,810 755,810" fill="none" stroke="white" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" opacity="0.95"/>
+  </g>
+
+  <!-- Brand name -->
+  <text x="540" y="1180" font-family="'Inter','Helvetica Neue',Arial,sans-serif" font-size="110" font-weight="800" fill="#ffffff" text-anchor="middle" letter-spacing="-2">Eu Te</text>
+  <text x="540" y="1300" font-family="'Inter','Helvetica Neue',Arial,sans-serif" font-size="110" font-weight="800" fill="#e11d48" text-anchor="middle" letter-spacing="-2">Indico</text>
+
+  <!-- Divider -->
+  <rect x="490" y="1330" width="100" height="5" rx="2.5" fill="#e11d48"/>
+
+  <!-- Slogan -->
+  <text x="540" y="1400" font-family="'Inter','Helvetica Neue',Arial,sans-serif" font-size="28" font-weight="500" fill="#6b7280" text-anchor="middle" letter-spacing="5">NUTRIÇÃO E SAÚDE</text>
+
+  <!-- Tagline -->
+  <text x="540" y="1500" font-family="'Inter','Helvetica Neue',Arial,sans-serif" font-size="32" font-weight="400" fill="#4b5563" text-anchor="middle">Produtos selecionados com qualidade</text>
+  <text x="540" y="1545" font-family="'Inter','Helvetica Neue',Arial,sans-serif" font-size="32" font-weight="400" fill="#4b5563" text-anchor="middle">e os melhores preços do mercado</text>
+
+  <!-- CTA button -->
+  <rect x="340" y="1620" width="400" height="90" rx="45" fill="#e11d48"/>
+  <text x="540" y="1675" font-family="'Inter','Helvetica Neue',Arial,sans-serif" font-size="32" font-weight="800" fill="#ffffff" text-anchor="middle" letter-spacing="1">VER OFERTAS</text>
+
+  <!-- Handle -->
+  <text x="540" y="1800" font-family="'Inter','Helvetica Neue',Arial,sans-serif" font-size="28" font-weight="400" fill="#374151" text-anchor="middle" letter-spacing="2">@euteindico</text>
+
+  <!-- ECG bottom -->
+  <polyline points="0,1760 200,1760 276,1680 352,1840 420,1640 475,1790 520,1720 565,1760 660,1600 755,1920 830,1760 1000,1760 1080,1760" fill="none" stroke="#e11d48" stroke-width="3" stroke-linecap="round" opacity="0.1"/>
+</svg>
