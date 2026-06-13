@@ -3,6 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 import Hero from '../components/Hero.astro';
 import TrustBar from '../components/TrustBar.astro';
+import ImageCarousel from '../components/ImageCarousel.astro';
 import ProductCarousel from '../components/ProductCarousel.astro';
 import Testimonials from '../components/Testimonials.astro';
 import Footer from '../components/Footer.astro';
@@ -13,6 +14,7 @@ import { products } from '../data/products';
   <Header />
   <main>
     <Hero />
+    <ImageCarousel />
     <TrustBar />
     <ProductCarousel products={products} />
     <Testimonials />
