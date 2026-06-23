@@ -12,7 +12,7 @@ import { products } from '../data/products';
     <div class="track" id="imgTrack">
       {/* Duplicamos para loop infinito */}
       {[...products, ...products].map((p, i) => (
-        <a href={p.affiliateUrl} class="slide" target="_blank" rel="noopener noreferrer" title={p.name}>
+        <a href={`/produto/${p.slug}`} class="slide" title={p.name}>
           <div class="img-wrap">
             <img src={p.image} alt={p.name} loading={i < 6 ? "eager" : "lazy"} />
             <div class="overlay">

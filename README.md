@@ -1,43 +1,43 @@
-# Astro Starter Kit: Minimal
+# Eu Te Indico — Suplementos & Emagrecedores
 
-```sh
-npm create astro@latest -- --template minimal
-```
+Site de vitrine de afiliados construído em [Astro](https://astro.build), focado em suplementos, termogênicos e emagrecedores. Cada produto tem sua própria página de detalhe; o botão de compra leva ao checkout do link de afiliado.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
+## Estrutura
 
 ```text
 /
-├── public/
 ├── src/
+│   ├── components/      # Header, Hero, carrosséis, Footer, etc.
+│   ├── data/
+│   │   └── products.ts  # Catálogo de produtos (edite aqui)
+│   ├── layouts/
+│   │   └── Layout.astro
 │   └── pages/
-│       └── index.astro
-└── package.json
+│       ├── index.astro          # Página inicial / vitrine
+│       └── produto/[slug].astro # Página de detalhe do produto (gerada para cada produto)
+└── public/               # Favicon, brand kit
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## Como adicionar/editar produtos
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+Edite [`src/data/products.ts`](src/data/products.ts). Cada produto precisa de:
 
-Any static assets, like images, can be placed in the `public/` directory.
+- `slug`: identificador único usado na URL (`/produto/<slug>`), apenas letras minúsculas, números e hífens.
+- `affiliateUrl`: **substitua pela URL real de checkout do seu link de afiliado** (Hotmart, Monetizze, Eduzz, Amazon Associates, etc.).
+- `image`: URL da imagem do produto.
+- Demais campos (`description`, `longDescription`, `benefits`, `howToUse`, preços, categoria, avaliação) controlam o que aparece na vitrine e na página de detalhe.
 
-## 🧞 Commands
+Ao salvar o arquivo, o Astro gera automaticamente uma página `/produto/<slug>` para cada produto da lista — não é preciso criar páginas manualmente.
 
-All commands are run from the root of the project, from a terminal:
+## Comandos
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+| Comando           | Ação                                          |
+| :----------------- | :--------------------------------------------- |
+| `npm install`       | Instala as dependências                        |
+| `npm run dev`        | Inicia o servidor local em `localhost:4321`   |
+| `npm run build`      | Gera o build de produção em `./dist/`          |
+| `npm run preview`    | Visualiza o build de produção localmente       |
 
-## 👀 Want to learn more?
+## Deploy
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+O projeto já está configurado para deploy estático na [Vercel](https://vercel.com) (`vercel.json`). Basta conectar o repositório do GitHub ao seu projeto na Vercel — o build (`npm run build`) e o diretório de saída (`dist`) já estão definidos.
