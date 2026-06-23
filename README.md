@@ -1,4 +1,4 @@
-# Eu Te Indico — Suplementos & Emagrecedores
+# FS FitLife — Suplementos & Emagrecedores
 
 Site de vitrine de afiliados construído em [Astro](https://astro.build), focado em suplementos, termogênicos e emagrecedores. Cada produto tem sua própria página de detalhe; o botão de compra leva ao checkout do link de afiliado.
 
