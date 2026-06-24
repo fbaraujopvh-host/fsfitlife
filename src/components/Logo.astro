@@ -13,87 +13,25 @@ const { size = 44 } = Astro.props;
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
     class="logo-svg"
-    aria-label="Eu Te Indico logo"
+    aria-label="FS FitLife logo"
   >
-    <defs>
-      <!-- Gradiente principal da maçã -->
-      <linearGradient id="appleGrad" x1="4" y1="8" x2="40" y2="44" gradientUnits="userSpaceOnUse">
-        <stop offset="0%" stop-color="#ff4d6d"/>
-        <stop offset="55%" stop-color="#e11d48"/>
-        <stop offset="100%" stop-color="#9f1239"/>
-      </linearGradient>
-      <!-- Gradiente do brilho -->
-      <linearGradient id="shineGrad" x1="10" y1="12" x2="22" y2="28" gradientUnits="userSpaceOnUse">
-        <stop offset="0%" stop-color="#ffffff" stop-opacity="0.25"/>
-        <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
-      </linearGradient>
-      <!-- Sombra interna -->
-      <filter id="innerShadow" x="-10%" y="-10%" width="120%" height="120%">
-        <feGaussianBlur in="SourceAlpha" stdDeviation="1.5" result="blur"/>
-        <feOffset dx="0" dy="1"/>
-        <feComposite in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="innerShadow"/>
-        <feFlood flood-color="#7f1d1d" flood-opacity="0.5" result="color"/>
-        <feComposite in="color" in2="innerShadow" operator="in" result="coloredShadow"/>
-        <feMerge>
-          <feMergeNode in="SourceGraphic"/>
-          <feMergeNode in="coloredShadow"/>
-        </feMerge>
-      </filter>
-      <filter id="glow">
-        <feGaussianBlur stdDeviation="1.5" result="coloredBlur"/>
-        <feMerge>
-          <feMergeNode in="coloredBlur"/>
-          <feMergeNode in="SourceGraphic"/>
-        </feMerge>
-      </filter>
-      <clipPath id="appleClip">
-        <!-- Forma da maçã para recortar a linha de pulso -->
-        <path d="M22 10.5C19.5 10.5 16.2 9.5 14 8C12.5 9.8 11 12.5 11 16C11 24.5 15 33.5 18 36.5C19.2 37.8 20.6 38.5 22 38.5C23.4 38.5 24.8 37.8 26 36.5C29 33.5 33 24.5 33 16C33 12.5 31.5 9.8 30 8C27.8 9.5 24.5 10.5 22 10.5Z"/>
-      </clipPath>
-    </defs>
-
-    <!-- Caule -->
-    <path
-      d="M22 8.5 C22 8.5 23.5 5.5 26.5 5C26.5 5 25 7.5 22 8.5Z"
-      fill="#4ade80"
-      opacity="0.9"
-    />
-    <!-- Folhinha -->
-    <path
-      d="M22 8C22 8 24 6 27 5.5C27 5.5 26.5 8 22 8Z"
-      fill="#22c55e"
-    />
-
-    <!-- Corpo da maçã -->
-    <path
-      d="M22 10.5C19.5 10.5 16.2 9.5 14 8C12.5 9.8 11 12.5 11 16C11 24.5 15 33.5 18 36.5C19.2 37.8 20.6 38.5 22 38.5C23.4 38.5 24.8 37.8 26 36.5C29 33.5 33 24.5 33 16C33 12.5 31.5 9.8 30 8C27.8 9.5 24.5 10.5 22 10.5Z"
-      fill="url(#appleGrad)"
-      filter="url(#innerShadow)"
-    />
-
-    <!-- Brilho/reflexo -->
-    <path
-      d="M15 13C15.5 11.5 17 10.5 19.5 10.2C20.5 10.1 21.3 10.1 22 10.2C20 11 17.5 12.5 15.8 15.5C15.2 14.8 15 13.8 15 13Z"
-      fill="url(#shineGrad)"
-    />
-
-    <!-- Linha de pulsação (ECG) dentro da maçã — clipped -->
-    <g clip-path="url(#appleClip)" filter="url(#glow)">
-      <polyline
-        points="11,24 14,24 16,20 18,28 20,18 21.5,26 23,22 24.5,24 27,16 29,28 31,24 33,24"
-        fill="none"
-        stroke="white"
-        stroke-width="1.6"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        opacity="0.95"
-      />
+    <!-- Halter na diagonal (canto sup. esq. -> inf. dir.) -->
+    <g transform="rotate(45 22 22)">
+      <rect x="5" y="19.5" width="34" height="5" rx="2.5" fill="#71c037" />
+      <rect x="2" y="14" width="7" height="16" rx="3" fill="#f5901e" />
+      <rect x="35" y="14" width="7" height="16" rx="3" fill="#f5901e" />
+    </g>
+    <!-- Halter na diagonal oposta (canto sup. dir. -> inf. esq.) -->
+    <g transform="rotate(-45 22 22)">
+      <rect x="5" y="19.5" width="34" height="5" rx="2.5" fill="#71c037" />
+      <rect x="2" y="14" width="7" height="16" rx="3" fill="#f5901e" />
+      <rect x="35" y="14" width="7" height="16" rx="3" fill="#f5901e" />
     </g>
   </svg>
 
   <div class="brand-text">
-    <span class="name">Eu Te <strong>Indico</strong></span>
-    <span class="slogan">Nutrição e Saúde</span>
+    <span class="name"><span class="fs-fit">FS Fit</span><span class="life">Life</span></span>
+    <span class="slogan">Suplementos & Emagrecedores</span>
   </div>
 </div>
 
@@ -105,11 +43,11 @@ const { size = 44 } = Astro.props;
   }
   .logo-svg {
     flex-shrink: 0;
-    filter: drop-shadow(0 2px 8px rgba(225, 29, 72, 0.45));
+    filter: drop-shadow(0 2px 8px rgba(113, 192, 55, 0.4));
     transition: filter 0.3s;
   }
   .brand:hover .logo-svg {
-    filter: drop-shadow(0 4px 16px rgba(225, 29, 72, 0.7));
+    filter: drop-shadow(0 4px 16px rgba(113, 192, 55, 0.65));
   }
   .brand-text {
     display: flex;
@@ -119,14 +57,11 @@ const { size = 44 } = Astro.props;
   }
   .name {
     font-size: 1.35rem;
-    font-weight: 700;
-    letter-spacing: -0.3px;
-    color: var(--white);
-  }
-  .name strong {
-    color: var(--primary);
     font-weight: 800;
+    letter-spacing: -0.3px;
   }
+  .fs-fit { color: var(--primary); }
+  .life { color: var(--accent); }
   .slogan {
     font-size: 0.65rem;
     font-weight: 500;
