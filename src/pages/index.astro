@@ -15,7 +15,9 @@ import testimonialsData from '../data/testimonials.json';
 import footerData from '../data/footer.json';
 
 const entries = await getCollection('products');
-const products = entries.map((entry) => ({ ...entry.data, slug: entry.id }));
+const products = entries
+  .filter((entry) => entry.data.active !== false)
+  .map((entry) => ({ ...entry.data, slug: entry.id }));
 ---
 
 <Layout title="FS FitLife — Suplementos e Emagrecedores">

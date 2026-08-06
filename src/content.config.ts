@@ -19,6 +19,7 @@ const products = defineCollection({
     category: z.string(),
     rating: z.number(),
     reviews: z.number(),
+    active: z.boolean().optional().default(true),
   }),
 });
 

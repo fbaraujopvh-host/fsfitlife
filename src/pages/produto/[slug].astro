@@ -8,7 +8,9 @@ import footerData from '../../data/footer.json';
 
 export async function getStaticPaths() {
   const entries = await getCollection('products');
-  const products = entries.map((entry) => ({ ...entry.data, slug: entry.id }));
+  const products = entries
+    .filter((entry) => entry.data.active !== false)
+    .map((entry) => ({ ...entry.data, slug: entry.id }));
 
   return products.map((product) => ({
     params: { slug: product.slug },

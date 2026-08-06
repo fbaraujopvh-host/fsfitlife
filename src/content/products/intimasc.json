@@ -19,5 +19,6 @@
   "affiliateUrl": "",
   "category": "Cuidados Íntimos",
   "rating": 4.9,
-  "reviews": 388
+  "reviews": 388,
+  "active": false
 }
