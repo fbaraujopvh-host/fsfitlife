@@ -1,0 +1,23 @@
+{
+  "name": "CreaGym",
+  "tagline": "Desempenho físico e cerebral em trio",
+  "description": "Creatina Monohidratada com Magnésio Bisgliscinato e Coenzima Q10. Explosão, resistência e proteção celular em uma fórmula completa de 200g.",
+  "longDescription": "Trio de performance: Creatina Monohidratada satura estoques de fosfocreatina (explosão e repetição extra), Magnésio mantém o funcionamento muscular e apoia a redução da fadiga, e Coenzima Q10 alimenta as mitocôndrias e ajuda a proteger contra o estresse oxidativo. Energia na medida, constância no dia a dia.",
+  "benefits": [
+    "Aumenta força e explosão muscular",
+    "Reduz a fadiga durante os treinos",
+    "Protege as células contra o estresse oxidativo",
+    "Apoia a recuperação muscular pós-treino",
+    "Melhora o desempenho físico e cognitivo"
+  ],
+  "howToUse": "Misture 1 colher (5g) em 200ml de água ou suco. Consuma antes ou após o treino, preferencialmente todos os dias para saturação.",
+  "price": "A definir",
+  "originalPrice": "A definir",
+  "discount": "Velmora",
+  "image": "/images/velmora-creagym.jpg",
+  "badge": "Performance",
+  "affiliateUrl": "",
+  "category": "Proteínas & Performance",
+  "rating": 4.9,
+  "reviews": 312
+}

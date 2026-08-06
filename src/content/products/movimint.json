@@ -1,0 +1,23 @@
+{
+  "name": "MoviMint",
+  "tagline": "Movimento livre com mais proteção",
+  "description": "Colágeno Tipo II em cápsulas. Preserva a cartilagem, reduz o desgaste articular e promove mobilidade e flexibilidade para o dia a dia — 60 cápsulas.",
+  "longDescription": "O Colágeno Tipo II é essencial para a manutenção da saúde das articulações, atuando diretamente na preservação da cartilagem e na redução do desgaste articular. Sua ação contribui para maior conforto nos movimentos, sendo ideal para quem busca qualidade de vida e desempenho físico no dia a dia.",
+  "benefits": [
+    "Preserva a saúde das articulações e cartilagens",
+    "Promove maior mobilidade e flexibilidade",
+    "Reduz o desconforto articular após esforços",
+    "Previne o desgaste das articulações",
+    "Ideal para atletas, idosos e rotinas intensas"
+  ],
+  "howToUse": "Tome 2 cápsulas por dia com água, preferencialmente em jejum ou antes da principal refeição.",
+  "price": "A definir",
+  "originalPrice": "A definir",
+  "discount": "Velmora",
+  "image": "/images/velmora-movimint.jpg",
+  "badge": "Articulações",
+  "affiliateUrl": "",
+  "category": "Bem-Estar & Recuperação",
+  "rating": 4.8,
+  "reviews": 445
+}

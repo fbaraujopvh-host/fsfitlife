@@ -1,0 +1,23 @@
+{
+  "name": "CeluGlow",
+  "tagline": "Pele mais lisa, firme e radiante",
+  "description": "Creme anticelulite com Nicotinato de Metila, Nano Coenzima Q10 e L-Carnitina. Reduz celulite, melhora firmeza e combate o aspecto casca de laranja — 200g.",
+  "longDescription": "Fórmula sensorial que ativa a circulação, reduz celulite e melhora a firmeza da pele. Combina ativos tecnológicos como L-Carnitina, Coenzima Q10 e extratos vegetais para hidratação, oxigenação e combate ao aspecto \"casca de laranja\".",
+  "benefits": [
+    "Reduz o aspecto de celulite visivelmente",
+    "Melhora a firmeza e elasticidade da pele",
+    "Ativa a circulação sanguínea local",
+    "Hidrata e oxigena a pele em profundidade",
+    "Combate a flacidez com Nano CoQ10"
+  ],
+  "howToUse": "Aplique sobre a pele limpa e massageie com movimentos circulares até absorção completa. Use duas vezes ao dia, preferencialmente após o banho.",
+  "price": "A definir",
+  "originalPrice": "A definir",
+  "discount": "Velmora",
+  "image": "/images/velmora-celuglow.jpg",
+  "badge": "Anticelulite",
+  "affiliateUrl": "",
+  "category": "Cuidados Corporais",
+  "rating": 4.8,
+  "reviews": 356
+}
