@@ -1,8 +1,15 @@
 {
+  "longDescription": "Equilíbrio metabólico e controle: O Cromo regula a insulina para controlar a vontade por doces, enquanto o Magnésio otimiza a função muscular e o trânsito intestinal. O Zinco fortalece a imunidade e acelera a recuperação celular, promovendo um metabolismo mais eficiente. A Biotina contribui para a nutrição da pele, cabelos e unhas, garantindo crescimento forte e saudável.",
+  "discount": "Velmora",
+  "affiliateUrl": "https://pay.hest.com.br/da5a245c-9998-4c82-b7b8-dd1f71054375",
+  "badge": "Sabor Tangerina",
+  "price": "125,94",
   "name": "Velmo Black Drink Tangerina",
   "tagline": "Equilíbrio metabólico e definição com sabor",
-  "description": "Bebida em pó sabor Tangerina com Inulina, Chia, Magnésio, Zinco, Picolinato de Cromo e Biotina. Controle do apetite, metabolismo eficiente e nutrição — 150g.",
-  "longDescription": "Equilíbrio metabólico e controle: O Cromo regula a insulina para controlar a vontade por doces, enquanto o Magnésio otimiza a função muscular e o trânsito intestinal. O Zinco fortalece a imunidade e acelera a recuperação celular, promovendo um metabolismo mais eficiente. A Biotina contribui para a nutrição da pele, cabelos e unhas, garantindo crescimento forte e saudável.",
+  "originalPrice": "209,90",
+  "reviews": 317,
+  "image": "/images/velmora-velmo-black-drink-tangerina.jpg",
+  "howToUse": "Dissolva 1 dose (5g) em 200ml de água gelada. Consuma 1 vez ao dia, preferencialmente pela manhã.",
   "benefits": [
     "Controla a vontade por doces e a fome emocional",
     "Otimiza o metabolismo e a função muscular",
@@ -10,14 +17,7 @@
     "Nutre pele, cabelos e unhas com Biotina",
     "Regula o trânsito intestinal com Magnésio"
   ],
-  "howToUse": "Dissolva 1 dose (5g) em 200ml de água gelada. Consuma 1 vez ao dia, preferencialmente pela manhã.",
-  "price": "A definir",
-  "originalPrice": "A definir",
-  "discount": "Velmora",
-  "image": "/images/velmora-velmo-black-drink-tangerina.jpg",
-  "badge": "Sabor Tangerina",
-  "affiliateUrl": "",
-  "category": "Emagrecedores",
+  "description": "Bebida em pó sabor Tangerina com Inulina, Chia, Magnésio, Zinco, Picolinato de Cromo e Biotina. Controle do apetite, metabolismo eficiente e nutrição — 150g.",
   "rating": 4.8,
-  "reviews": 317
+  "category": "Emagrecedores"
 }
