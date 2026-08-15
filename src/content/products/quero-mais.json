@@ -1,8 +1,15 @@
 {
+  "longDescription": "Fórmula natural que equilibra hormônios, estimula a libido e melhora o humor. Com ingredientes como Feno Grego, Gengibre, Guaraná e vitaminas essenciais, devolve o ânimo físico e mental com foco no bem-estar feminino.",
+  "discount": "Velmora",
+  "affiliateUrl": "https://pay.hest.com.br/81725e74-936a-4eac-a35c-f5364ee09fab",
+  "badge": "Feminino",
+  "price": "146,93",
   "name": "Quero+",
   "tagline": "Mais energia, mais desejo, mais você",
-  "description": "Pó para bebida sabor Frutas Vermelhas com Feno Grego, Guaraná, Gengibre e minerais. Equilibra hormônios, estimula a libido e melhora o humor feminino — 210g.",
-  "longDescription": "Fórmula natural que equilibra hormônios, estimula a libido e melhora o humor. Com ingredientes como Feno Grego, Gengibre, Guaraná e vitaminas essenciais, devolve o ânimo físico e mental com foco no bem-estar feminino.",
+  "originalPrice": "209,90",
+  "reviews": 673,
+  "image": "/images/velmora-quero-mais.jpg",
+  "howToUse": "Misture 1 colher (7g) em 200ml de água gelada ou suco de sua preferência. Consuma uma vez ao dia.",
   "benefits": [
     "Estimula a libido e o desejo feminino",
     "Equilibra os hormônios naturalmente",
@@ -10,14 +17,7 @@
     "Aumenta a energia física e mental",
     "Fórmula natural com Feno Grego e Guaraná"
   ],
-  "howToUse": "Misture 1 colher (7g) em 200ml de água gelada ou suco de sua preferência. Consuma uma vez ao dia.",
-  "price": "A definir",
-  "originalPrice": "A definir",
-  "discount": "Velmora",
-  "image": "/images/velmora-quero-mais.jpg",
-  "badge": "Feminino",
-  "affiliateUrl": "",
-  "category": "Bem-Estar Feminino",
+  "description": "Pó para bebida sabor Frutas Vermelhas com Feno Grego, Guaraná, Gengibre e minerais. Equilibra hormônios, estimula a libido e melhora o humor feminino — 210g.",
   "rating": 4.9,
-  "reviews": 673
+  "category": "Bem-Estar Feminino"
 }
