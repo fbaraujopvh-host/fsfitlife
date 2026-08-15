@@ -1,8 +1,15 @@
 {
+  "longDescription": "Suplemento em gomas sabor tutti-frutti que aumenta a energia, acelera a recuperação muscular e melhora o desempenho físico e cognitivo. Ideal para quem busca resultados reais com praticidade e prazer.",
+  "discount": "Velmora",
+  "affiliateUrl": "https://pay.hest.com.br/8ec4a3f6-4c1a-49b5-91e3-8f1bb29a8665",
+  "badge": "Inovação",
+  "price": "137,90",
   "name": "Creatina Gummy",
   "tagline": "Força, foco e sabor para turbinar seus treinos",
-  "description": "Creatina Monohidratada em gomas sabor Tutti-Frutti. 3g por porção, sem açúcar. Energia, recuperação muscular e desempenho físico — 60 gomas.",
-  "longDescription": "Suplemento em gomas sabor tutti-frutti que aumenta a energia, acelera a recuperação muscular e melhora o desempenho físico e cognitivo. Ideal para quem busca resultados reais com praticidade e prazer.",
+  "originalPrice": "197,00",
+  "reviews": 241,
+  "image": "/images/velmora-creatina-gummy.jpg",
+  "howToUse": "Consuma 2 gomas (3g de creatina) por dia. Pode ser tomado a qualquer momento do dia, com ou sem água.",
   "benefits": [
     "Aumenta força e energia para o treino",
     "Acelera a recuperação muscular",
@@ -10,14 +17,7 @@
     "Prático e gostoso — sem precisar de água",
     "Sem açúcar, 3g de creatina por porção"
   ],
-  "howToUse": "Consuma 2 gomas (3g de creatina) por dia. Pode ser tomado a qualquer momento do dia, com ou sem água.",
-  "price": "A definir",
-  "originalPrice": "A definir",
-  "discount": "Velmora",
-  "image": "/images/velmora-creatina-gummy.jpg",
-  "badge": "Inovação",
-  "affiliateUrl": "",
-  "category": "Proteínas & Performance",
+  "description": "Creatina Monohidratada em gomas sabor Tutti-Frutti. 3g por porção, sem açúcar. Energia, recuperação muscular e desempenho físico — 60 gomas.",
   "rating": 4.8,
-  "reviews": 241
+  "category": "Proteínas & Performance"
 }
