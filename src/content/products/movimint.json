@@ -1,8 +1,15 @@
 {
+  "longDescription": "O Colágeno Tipo II é essencial para a manutenção da saúde das articulações, atuando diretamente na preservação da cartilagem e na redução do desgaste articular. Sua ação contribui para maior conforto nos movimentos, sendo ideal para quem busca qualidade de vida e desempenho físico no dia a dia.",
+  "discount": "Velmora",
+  "affiliateUrl": "https://pay.hest.com.br/9be6dd60-1c47-47f5-a874-be102d5bb452",
+  "badge": "Articulações",
+  "price": "118,20",
   "name": "MoviMint",
   "tagline": "Movimento livre com mais proteção",
-  "description": "Colágeno Tipo II em cápsulas. Preserva a cartilagem, reduz o desgaste articular e promove mobilidade e flexibilidade para o dia a dia — 60 cápsulas.",
-  "longDescription": "O Colágeno Tipo II é essencial para a manutenção da saúde das articulações, atuando diretamente na preservação da cartilagem e na redução do desgaste articular. Sua ação contribui para maior conforto nos movimentos, sendo ideal para quem busca qualidade de vida e desempenho físico no dia a dia.",
+  "originalPrice": "197,00",
+  "reviews": 445,
+  "image": "/images/velmora-movimint.jpg",
+  "howToUse": "Tome 2 cápsulas por dia com água, preferencialmente em jejum ou antes da principal refeição.",
   "benefits": [
     "Preserva a saúde das articulações e cartilagens",
     "Promove maior mobilidade e flexibilidade",
@@ -10,14 +17,7 @@
     "Previne o desgaste das articulações",
     "Ideal para atletas, idosos e rotinas intensas"
   ],
-  "howToUse": "Tome 2 cápsulas por dia com água, preferencialmente em jejum ou antes da principal refeição.",
-  "price": "A definir",
-  "originalPrice": "A definir",
-  "discount": "Velmora",
-  "image": "/images/velmora-movimint.jpg",
-  "badge": "Articulações",
-  "affiliateUrl": "",
-  "category": "Bem-Estar & Recuperação",
+  "description": "Colágeno Tipo II em cápsulas. Preserva a cartilagem, reduz o desgaste articular e promove mobilidade e flexibilidade para o dia a dia 60 cápsulas.",
   "rating": 4.8,
-  "reviews": 445
+  "category": "Bem-Estar & Recuperação"
 }
