@@ -1,8 +1,15 @@
 {
+  "longDescription": "Trio de performance: Creatina Monohidratada satura estoques de fosfocreatina (explosão e repetição extra), Magnésio mantém o funcionamento muscular e apoia a redução da fadiga, e Coenzima Q10 alimenta as mitocôndrias e ajuda a proteger contra o estresse oxidativo. Energia na medida, constância no dia a dia.",
+  "discount": "Velmora",
+  "affiliateUrl": "https://pay.hest.com.br/abe86251-c2c3-4c3d-9f28-efe35c1b626a",
+  "badge": "Performance",
+  "price": "137,90",
   "name": "CreaGym",
   "tagline": "Desempenho físico e cerebral em trio",
-  "description": "Creatina Monohidratada com Magnésio Bisgliscinato e Coenzima Q10. Explosão, resistência e proteção celular em uma fórmula completa de 200g.",
-  "longDescription": "Trio de performance: Creatina Monohidratada satura estoques de fosfocreatina (explosão e repetição extra), Magnésio mantém o funcionamento muscular e apoia a redução da fadiga, e Coenzima Q10 alimenta as mitocôndrias e ajuda a proteger contra o estresse oxidativo. Energia na medida, constância no dia a dia.",
+  "originalPrice": "197,00",
+  "reviews": 312,
+  "image": "/images/velmora-creagym.jpg",
+  "howToUse": "Misture 1 colher (5g) em 200ml de água ou suco. Consuma antes ou após o treino, preferencialmente todos os dias para saturação.",
   "benefits": [
     "Aumenta força e explosão muscular",
     "Reduz a fadiga durante os treinos",
@@ -10,14 +17,7 @@
     "Apoia a recuperação muscular pós-treino",
     "Melhora o desempenho físico e cognitivo"
   ],
-  "howToUse": "Misture 1 colher (5g) em 200ml de água ou suco. Consuma antes ou após o treino, preferencialmente todos os dias para saturação.",
-  "price": "A definir",
-  "originalPrice": "A definir",
-  "discount": "Velmora",
-  "image": "/images/velmora-creagym.jpg",
-  "badge": "Performance",
-  "affiliateUrl": "",
-  "category": "Proteínas & Performance",
+  "description": "Creatina Monohidratada com Magnésio Bisgliscinato e Coenzima Q10. Explosão, resistência e proteção celular em uma fórmula completa de 200g.",
   "rating": 4.9,
-  "reviews": 312
+  "category": "Proteínas & Performance"
 }
