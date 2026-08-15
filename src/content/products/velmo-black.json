@@ -1,8 +1,15 @@
 {
+  "longDescription": "Metabolismo e controle de apetite: O Picolinato de Cromo atua diretamente na regulação da insulina, estabilizando os picos de glicose para reduzir significativamente a vontade por doces e a fome emocional. A Laranja Moro (Antocianina) potencializa o metabolismo lipídico, auxiliando na oxidação de gorduras e na redução de medidas. Energia e foco constante — ativação celular: A Taurina entra como o componente chave para o desempenho cerebral e muscular, garantindo que o metabolismo energético funcione a todo vapor, proporcionando mais disposição física e clareza mental para enfrentar a rotina.",
+  "discount": "40% de Desconto",
+  "affiliateUrl": "https://pay.hest.com.br/5b4c6e04-0e38-4ee1-a781-5d6d09090529",
+  "badge": "Mais Vendido",
+  "price": "118,20",
   "name": "Velmo Black",
   "tagline": "Metabolismo acelerado, apetite sob controle",
-  "description": "Emagrecedor em cápsulas com Morosil (Laranja Moro), Picolinato de Cromo e Taurina. Reduz gordura, controla fome emocional e aumenta energia e foco — 60 cápsulas.",
-  "longDescription": "Metabolismo e controle de apetite: O Picolinato de Cromo atua diretamente na regulação da insulina, estabilizando os picos de glicose para reduzir significativamente a vontade por doces e a fome emocional. A Laranja Moro (Antocianina) potencializa o metabolismo lipídico, auxiliando na oxidação de gorduras e na redução de medidas. Energia e foco constante — ativação celular: A Taurina entra como o componente chave para o desempenho cerebral e muscular, garantindo que o metabolismo energético funcione a todo vapor, proporcionando mais disposição física e clareza mental para enfrentar a rotina.",
+  "originalPrice": "197,90",
+  "reviews": 721,
+  "image": "/images/velmora-velmo-black.jpg",
+  "howToUse": "Tome 2 cápsulas ao dia com água, 30 minutos antes das principais refeições.",
   "benefits": [
     "Controla a fome emocional e o desejo por doces",
     "Potencializa a queima de gordura com Morosil",
@@ -10,14 +17,7 @@
     "Estabiliza os picos de glicose com Picolinato de Cromo",
     "Acelera o metabolismo lipídico com Laranja Moro"
   ],
-  "howToUse": "Tome 2 cápsulas ao dia com água, 30 minutos antes das principais refeições.",
-  "price": "A definir",
-  "originalPrice": "A definir",
-  "discount": "Velmora",
-  "image": "/images/velmora-velmo-black.jpg",
-  "badge": "Mais Vendido",
-  "affiliateUrl": "",
-  "category": "Emagrecedores",
+  "description": "Emagrecedor em cápsulas com Morosil (Laranja Moro), Picolinato de Cromo e Taurina. Reduz gordura, controla fome emocional e aumenta energia e foco — 60 cápsulas.",
   "rating": 4.9,
-  "reviews": 721
+  "category": "Emagrecedores"
 }
